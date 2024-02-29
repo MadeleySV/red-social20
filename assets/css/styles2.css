@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    height: 70px;
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+nav .nav-left{
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-left > img{
+    height: 40px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    background-color: #eee;
+    margin-left: 10px;
+}
